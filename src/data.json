@@ -1,0 +1,238 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "slug": "wireless-bluetooth-headphones",
+      "price": 59.99,
+      "discount": 10,
+      "finalPrice": 53.99,
+      "stock": {
+        "total": 120,
+        "warehouse": [
+          { "id": "W1", "qty": 60 },
+          { "id": "W2", "qty": 30 },
+          { "id": "W3", "qty": 30 }
+        ]
+      },
+      "category": {
+        "main": "Electronics",
+        "sub": "Audio",
+        "tags": ["wireless", "bluetooth", "sound"]
+      },
+      "variants": [
+        { "color": "Black", "sku": "HB-BLK", "price": 59.99 },
+        { "color": "White", "sku": "HB-WHT", "price": 61.99 }
+      ],
+      "supplier": {
+        "name": "SoundPro Ltd.",
+        "contact": {
+          "email": "support@soundpro.com",
+          "phone": "+1 555-8863"
+        }
+      },
+      "specs": {
+        "batteryLife": "12h",
+        "bluetooth": "5.1",
+        "weight": "150g"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryEstimate": "3-6 days"
+      },
+      "reviews": [
+        {
+          "user": "John Doe",
+          "rating": 4.5,
+          "comment": "Great quality for the price!",
+          "date": "2025-02-10"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Gaming Mechanical Keyboard",
+      "slug": "gaming-mechanical-keyboard",
+      "price": 89.0,
+      "discount": 0,
+      "finalPrice": 89.0,
+      "stock": {
+        "total": 50,
+        "warehouse": [
+          { "id": "W2", "qty": 20 },
+          { "id": "W3", "qty": 30 }
+        ]
+      },
+      "category": {
+        "main": "Electronics",
+        "sub": "Computer Accessories",
+        "tags": ["keyboard", "gaming", "RGB"]
+      },
+      "variants": [
+        { "switch": "Blue", "sku": "KB-BLU", "price": 89.0 },
+        { "switch": "Red", "sku": "KB-RED", "price": 92.0 }
+      ],
+      "supplier": {
+        "name": "KeyMaster Co.",
+        "contact": {
+          "email": "sales@keymaster.com",
+          "phone": "+1 555-6633"
+        }
+      },
+      "specs": {
+        "keys": 104,
+        "backlight": "RGB",
+        "connection": "USB"
+      },
+      "shipping": {
+        "freeShipping": false,
+        "cost": 5.99
+      },
+      "reviews": []
+    },
+
+    {
+      "id": 3,
+      "name": "Smartwatch X Series",
+      "slug": "smartwatch-x-series",
+      "price": 129.99,
+      "discount": 15,
+      "finalPrice": 110.49,
+      "stock": {
+        "total": 200,
+        "warehouse": [
+          { "id": "W1", "qty": 120 },
+          { "id": "W4", "qty": 80 }
+        ]
+      },
+      "category": {
+        "main": "Wearables",
+        "sub": "Smartwatch",
+        "tags": ["fitness", "health", "bluetooth"]
+      },
+      "variants": [
+        { "color": "Black", "sku": "SM-BLK", "price": 129.99 },
+        { "color": "Pink", "sku": "SM-PNK", "price": 132.99 },
+        { "color": "Blue", "sku": "SM-BLU", "price": 129.99 }
+      ],
+      "supplier": {
+        "name": "TechZone Inc.",
+        "contact": {
+          "email": "info@techzone.com",
+          "phone": "+1 555-2211"
+        }
+      },
+      "specs": {
+        "battery": "24h",
+        "screenSize": "1.8 inch",
+        "waterproof": "IP68"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryEstimate": "5-8 days"
+      },
+      "reviews": [
+        {
+          "user": "Alice",
+          "rating": 4.7,
+          "comment": "Amazing smartwatch with great battery life!",
+          "date": "2025-02-12"
+        },
+        {
+          "user": "Mark",
+          "rating": 4.0,
+          "comment": "Nice features but strap is average.",
+          "date": "2025-02-15"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "Ultra 4K LED Monitor",
+      "slug": "ultra-4k-led-monitor",
+      "price": 320.0,
+      "discount": 20,
+      "finalPrice": 256.0,
+      "stock": {
+        "total": 75,
+        "warehouse": [
+          { "id": "W1", "qty": 25 },
+          { "id": "W6", "qty": 50 }
+        ]
+      },
+      "category": {
+        "main": "Electronics",
+        "sub": "Monitors",
+        "tags": ["4K", "LED", "computer"]
+      },
+      "variants": [],
+      "supplier": {
+        "name": "VisionTech",
+        "contact": {
+          "email": "contact@visiontech.com"
+        }
+      },
+      "specs": {
+        "resolution": "3840x2160",
+        "size": "27 inch",
+        "refreshRate": "144Hz"
+      },
+      "shipping": {
+        "freeShipping": false,
+        "cost": 12.99
+      },
+      "reviews": []
+    },
+
+    {
+      "id": 5,
+      "name": "Premium Coffee Maker",
+      "slug": "premium-coffee-maker",
+      "price": 45.0,
+      "discount": 5,
+      "finalPrice": 42.75,
+      "stock": {
+        "total": 150,
+        "warehouse": [
+          { "id": "W3", "qty": 70 },
+          { "id": "W5", "qty": 80 }
+        ]
+      },
+      "category": {
+        "main": "Home Appliances",
+        "sub": "Kitchen",
+        "tags": ["coffee", "kitchen", "appliance"]
+      },
+      "variants": [
+        { "color": "Black", "sku": "CM-BLK", "price": 45.0 },
+        { "color": "Red", "sku": "CM-RED", "price": 47.5 }
+      ],
+      "supplier": {
+        "name": "HomeEase",
+        "contact": {
+          "email": "support@homeease.com",
+          "phone": "+1 555-0001"
+        }
+      },
+      "specs": {
+        "capacity": "1.5L",
+        "power": "800W",
+        "weight": "3.2kg"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "deliveryEstimate": "2-4 days"
+      },
+      "reviews": [
+        {
+          "user": "Sarah",
+          "rating": 4.2,
+          "comment": "Perfect for daily use!",
+          "date": "2025-02-08"
+        }
+      ]
+    }
+  ]
+}
