@@ -1,0 +1,20 @@
+{
+  "name": "simple-product-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json data",
+    "manipulating json data",
+    "file system"
+  ],
+  "author": "Md. Nazmul Hasan",
+  "license": "ISC",
+  "description": "A simple product api using json file storage",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
