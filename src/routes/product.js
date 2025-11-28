@@ -1,9 +1,8 @@
 const express = require("express")
 const router = express.Router()
 const data = require("../data.json")
+const { getProducts } = require("../controllers/product")
 
-router.get("/products", (req, res) => {
-  res.status(200).send(data)
-})
+router.get("/products", getProducts)
 
 module.exports = router
