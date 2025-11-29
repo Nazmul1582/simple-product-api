@@ -16,4 +16,10 @@ const getProducts = (req, res) => {
   res.status(200).json(filteredPorducts)
 }
 
-module.exports = { getProducts }
+const getProduct = (req, res) => {
+  const id = parseInt(req.params.id)
+  const product = data.products.find((p) => p.id === id)
+  res.status(200).json(product)
+}
+
+module.exports = { getProducts, getProduct }
