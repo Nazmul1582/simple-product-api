@@ -7,5 +7,5 @@ const clientIP = require("./middleware/clientIP.js")
 app.use("/api", clientIP, router)
 
 app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`)
+  console.log(`Server is running on http://localhost:${PORT}`)
 })
