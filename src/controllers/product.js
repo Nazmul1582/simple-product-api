@@ -8,8 +8,11 @@ const filteredPorducts = data.products.map((p) => ({
   stock: p.stock.total,
   category: p.category.main,
   tags: p.category.tags.join(", "),
-  supplierName: p.supplier.name,
+  supplierName: p.supplier["name"],
   reviews: p.reviews.length,
+  averageRating: p.reviews.some((item) => item.rating)
+    ? p.reviews.reduce((acc, curr) => acc + curr.rating, 0) / p.reviews.length
+    : 0,
 }))
 
 const getProducts = (req, res) => {
